@@ -1,5 +1,5 @@
 execute "set dock to be on left" do
-  command "defaults write com.apple.dock orientation -string left"
+  command "defaults write com.apple.dock orientation -string bottom"
   user WS_USER
 end
 
